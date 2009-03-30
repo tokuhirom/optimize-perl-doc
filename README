@@ -22,6 +22,10 @@ Benchmark.pm は、Perl における標準のベンチマークモジュール�
 
 これらのモジュールをつかうと、Perl の op tree のダンプをみることができる。これをよくみることにより、「なぜこれが速くなるのか」ということが理解可能となる。
 
+=item Devel::NYTProf
+
+Perl5 のプロファイラはながらく Devel::DProf が標準的につかわれてきましたが、最近は Devel::NYTProf が主流となっています。Devel::NYTProf は、綺麗な HTML を生成することができ、ホットスポットがひとめでわかるので、オススメです。
+
 =back
 
 =head2 環境
